@@ -111,7 +111,7 @@ by **Noam Nisan** and **Shimon Schocken**
 This project is licensed under the **MIT License**.
 
 Copyright (c) 2026  
-**Krish Singh**
+**Krish Singh** ([github.com/wasitkrish](https://github.com/wasitkrish))
 
 ---
 
