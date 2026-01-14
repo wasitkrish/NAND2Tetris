@@ -115,7 +115,3 @@ Copyright (c) 2026
 
 ---
 
-<p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:1e293b,100:0f172a&height=120&section=footer"/>
-</p>
-
