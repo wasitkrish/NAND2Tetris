@@ -1,0 +1,90 @@
+CHIP Mux16 {
+    IN a[16], b[16], sel;
+    OUT out[16];
+
+    PARTS:
+   Nand(a=sel,b=sel,out=nsel);
+
+// Bit 0
+Nand(a=a[0],b=nsel,out=out1);
+Nand(a=b[0],b=sel,out=out2);
+Nand(a=out1,b=out2,out=out[0]);
+
+// Bit 1
+Nand(a=a[1],b=nsel,out=out11);
+Nand(a=b[1],b=sel,out=out21);
+Nand(a=out11,b=out21,out=out[1]);
+
+// Bit 2
+Nand(a=a[2],b=nsel,out=out12);
+Nand(a=b[2],b=sel,out=out22);
+Nand(a=out12,b=out22,out=out[2]);
+
+// Bit 3
+Nand(a=a[3],b=nsel,out=out13);
+Nand(a=b[3],b=sel,out=out23);
+Nand(a=out13,b=out23,out=out[3]);
+
+// Bit 4
+Nand(a=a[4],b=nsel,out=out14);
+Nand(a=b[4],b=sel,out=out24);
+Nand(a=out14,b=out24,out=out[4]);
+
+// Bit 5
+Nand(a=a[5],b=nsel,out=out15);
+Nand(a=b[5],b=sel,out=out25);
+Nand(a=out15,b=out25,out=out[5]);
+
+// Bit 6
+Nand(a=a[6],b=nsel,out=out16);
+Nand(a=b[6],b=sel,out=out26);
+Nand(a=out16,b=out26,out=out[6]);
+
+// Bit 7
+Nand(a=a[7],b=nsel,out=out17);
+Nand(a=b[7],b=sel,out=out27);
+Nand(a=out17,b=out27,out=out[7]);
+
+// Bit 8
+Nand(a=a[8],b=nsel,out=out18);
+Nand(a=b[8],b=sel,out=out28);
+Nand(a=out18,b=out28,out=out[8]);
+
+// Bit 9
+Nand(a=a[9],b=nsel,out=out19);
+Nand(a=b[9],b=sel,out=out29);
+Nand(a=out19,b=out29,out=out[9]);
+
+// Bit 10
+Nand(a=a[10],b=nsel,out=out110);
+Nand(a=b[10],b=sel,out=out210);
+Nand(a=out110,b=out210,out=out[10]);
+
+// Bit 11
+Nand(a=a[11],b=nsel,out=out111);
+Nand(a=b[11],b=sel,out=out211);
+Nand(a=out111,b=out211,out=out[11]);
+
+// Bit 12
+Nand(a=a[12],b=nsel,out=out112);
+Nand(a=b[12],b=sel,out=out212);
+Nand(a=out112,b=out212,out=out[12]);
+
+// Bit 13
+Nand(a=a[13],b=nsel,out=out113);
+Nand(a=b[13],b=sel,out=out213);
+Nand(a=out113,b=out213,out=out[13]);
+
+// Bit 14
+Nand(a=a[14],b=nsel,out=out114);
+Nand(a=b[14],b=sel,out=out214);
+Nand(a=out114,b=out214,out=out[14]);
+
+// Bit 15
+Nand(a=a[15],b=nsel,out=out115);
+Nand(a=b[15],b=sel,out=out215);
+Nand(a=out115,b=out215,out=out[15]);
+
+
+
+}

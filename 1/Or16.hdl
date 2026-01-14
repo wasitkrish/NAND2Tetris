@@ -1,0 +1,55 @@
+CHIP Or16 {
+    IN a[16], b[16];
+    OUT out[16];
+
+    PARTS:
+    Nand(a=a[0], b=a[0], out=aout0); 
+    Nand(a=b[0],b=b[0],out=bout0); 
+    Nand(a=aout0,b=bout0,out=out[0]);
+    Nand(a=a[1], b=a[1], out=aout1);
+     Nand(a=b[1],b=b[1],out=bout1);
+      Nand(a=aout1,b=bout1,out=out[1]);
+    Nand(a=a[2], b=a[2], out=aout2);
+     Nand(a=b[2],b=b[2],out=bout2); 
+     Nand(a=aout2,b=bout2,out=out[2]);
+    Nand(a=a[3], b=a[3], out=aout3); 
+    Nand(a=b[3],b=b[3],out=bout3); 
+    Nand(a=aout3,b=bout3,out=out[3]);
+    Nand(a=a[4], b=a[4], out=aout4);
+     Nand(a=b[4],b=b[4],out=bout4);
+      Nand(a=aout4,b=bout4,out=out[4]);
+    Nand(a=a[5], b=a[5], out=aout5);
+     Nand(a=b[5],b=b[5],out=bout5); Nand(a=aout5,b=bout5,out=out[5]);
+    Nand(a=a[6], b=a[6], out=aout6);
+     Nand(a=b[6],b=b[6],out=bout6); 
+     Nand(a=aout6,b=bout6,out=out[6]);
+    Nand(a=a[7], b=a[7], out=aout7);
+     Nand(a=b[7],b=b[7],out=bout7);
+      Nand(a=aout7,b=bout7,out=out[7]);
+    Nand(a=a[8], b=a[8], out=aout8); 
+    Nand(a=b[8],b=b[8],out=bout8); 
+    Nand(a=aout8,b=bout8,out=out[8]);
+    Nand(a=a[9], b=a[9], out=aout9); 
+    Nand(a=b[9],b=b[9],out=bout9); 
+    Nand(a=aout9,b=bout9,out=out[9]);
+    Nand(a=a[10], b=a[10], out=aout10);
+     Nand(a=b[10],b=b[10],out=bout10); 
+     Nand(a=aout10,b=bout10,out=out[10]);
+    Nand(a=a[11], b=a[11], out=aout11); 
+    Nand(a=b[11],b=b[11],out=bout11); 
+    Nand(a=aout11,b=bout11,out=out[11]);
+    Nand(a=a[12], b=a[12], out=aout12); 
+    Nand(a=b[12],b=b[12],out=bout12); 
+    Nand(a=aout12,b=bout12,out=out[12]);
+    Nand(a=a[13], b=a[13], out=aout13); 
+    Nand(a=b[13],b=b[13],out=bout13); 
+    Nand(a=aout13,b=bout13,out=out[13]);
+    Nand(a=a[14], b=a[14], out=aout14); 
+    Nand(a=b[14],b=b[14],out=bout14); 
+    Nand(a=aout14,b=bout14,out=out[14]);
+    Nand(a=a[15], b=a[15], out=aout15); 
+    Nand(a=b[15],b=b[15],out=bout15); 
+    Nand(a=aout15,b=bout15,out=out[15]);
+    
+    
+}
