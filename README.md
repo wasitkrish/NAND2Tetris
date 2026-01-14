@@ -1,66 +1,96 @@
-# NAND2Tetris – Elements of Computing 
+# 💻 NAND2Tetris – Elements of Computing
 
-This repository contains my project work for the NAND2Tetris course, completed as part of the Elements of Computing curriculum in my B.Tech program. The course focuses on building a complete computer system from first principles, starting from logic gates and progressing to a functioning CPU architecture. This repository currently includes completed implementations for Projects 1, 2, 3, and 5 of the official NAND2Tetris project sequence.
+This repository contains my project work for the **NAND2Tetris: Elements of Computing Systems** course, completed as part of the **Elements of Computing** curriculum in my B.Tech program.
 
-## Completed Projects
+NAND2Tetris is a bottom-up exploration of computer systems — building an entire computer **from logic gates to a working CPU**, purely from first principles. This repository documents my implementations across multiple stages of that journey.
 
-Project 1 – Logic Gates  
-Implementation of basic and composite logic gates using only NAND gates in HDL.
+🚀 **Completed Projects:** 1, 2, 3, and 5 from the official NAND2Tetris project sequence.
 
-Project 2 – Arithmetic Logic  
+---
+
+## 📌 Completed Projects
+
+🔹 **Project 1 – Logic Gates**  
+Implementation of fundamental and composite logic gates using only NAND gates in HDL.
+
+🔹 **Project 2 – Arithmetic Logic**  
 Construction of arithmetic circuits including adders and the Arithmetic Logic Unit (ALU).
 
-Project 3 – Sequential Logic  
-Design of flip-flops, registers, and memory units (RAM).
+🔹 **Project 3 – Sequential Logic**  
+Design of flip-flops, registers, and RAM modules.
 
-Project 5 – Computer Architecture  
+🔹 **Project 5 – Computer Architecture**  
 Complete implementation of the Hack CPU and memory system.
 
-Each project folder contains HDL source files and test scripts for validation using the official NAND2Tetris simulators.
+Each project folder contains HDL source files and official test scripts for verification using NAND2Tetris simulators.
 
-## Repository Structure
+---
+
+## 📂 Repository Structure
 
 /project1 → Logic gate implementations  
 /project2 → Arithmetic circuits and ALU  
 /project3 → Sequential circuits and memory  
 /project5 → Hack CPU and memory architecture  
 
-## How to Run and Test
+---
 
-Online Simulator:  
+## ⚙️ How to Run & Test
+
+🖥 **Online Web IDE:**  
 https://nand2tetris.github.io/web-ide
 
-Steps:  
-1. Open the Web IDE.  
-2. Upload the required project files from this repository.  
-3. Run the provided .tst scripts in the Hardware Simulator or CPU Emulator.
+**Steps:**
+1. Open the Web IDE  
+2. Upload the project files from this repository  
+3. Run the provided `.tst` scripts in the Hardware Simulator or CPU Emulator  
 
-Official Course Resources:  
-Course Website: https://www.nand2tetris.org  
-Project Instructions: https://www.nand2tetris.org/course  
+---
 
-## Course Context
+## 🌐 Official Course Resources
 
-This work was completed as part of the Elements of Computing semester course. The objective of the course is to understand computer systems from the ground up, bridging digital logic, computer architecture, and low-level system design through hands-on implementation.
+📘 Course Website: https://www.nand2tetris.org  
+📄 Project Instructions: https://www.nand2tetris.org/course  
 
-## Key Concepts Covered
+---
 
-Hardware Description Language (HDL)  
-Digital logic and gate-level design  
-Arithmetic and sequential circuits  
-Memory organization  
-CPU architecture (Hack Computer)
+## 🎓 Course Context
 
-## Acknowledgments
+This work was completed as part of the **Elements of Computing** semester course.
 
-Based on the curriculum and materials from:  
-NAND2Tetris – The Elements of Computing Systems  
-Noam Nisan and Shimon Schocken
+The course develops a deep understanding of computer systems by connecting:
 
-## License
+- Digital logic design  
+- Computer architecture  
+- Memory organization  
+- Low-level system implementation  
 
-MIT License
+The emphasis is on **learning by building**, not theory alone.
 
-Copyright (c) 2026 Krish Singh
+---
 
+## 🧠 Key Concepts Covered
 
+- Hardware Description Language (HDL)  
+- Digital logic & gate-level design  
+- Arithmetic and sequential circuits  
+- Memory organization  
+- CPU architecture (Hack Computer)
+
+---
+
+## 📖 Acknowledgments
+
+Based on the curriculum and materials from:
+
+**NAND2Tetris – The Elements of Computing Systems**  
+by **Noam Nisan** and **Shimon Schocken**
+
+---
+
+## 📜 License
+
+This project is licensed under the **MIT License**.
+
+Copyright (c) 2026  
+**Krish Singh**
