@@ -1,0 +1,104 @@
+CHIP Register {
+    IN in[16], load;
+    OUT out[16];
+
+    PARTS:
+    // shared load-not signal
+    Nand(a=load, b=load, out=loadnot);
+
+    // bit 0
+    Nand(a=loadnot, b=fout0, out=outf0);
+    Nand(a=load, b=in[0], out=outs0);
+    Nand(a=outf0, b=outs0, out=outd0);
+    DFF(in=outd0, out=fout0, out=out[0]);
+
+    // bit 1
+    Nand(a=loadnot, b=fout1, out=outf1);
+    Nand(a=load, b=in[1], out=outs1);
+    Nand(a=outf1, b=outs1, out=outd1);
+    DFF(in=outd1, out=fout1, out=out[1]);
+
+    // bit 2
+    Nand(a=loadnot, b=fout2, out=outf2);
+    Nand(a=load, b=in[2], out=outs2);
+    Nand(a=outf2, b=outs2, out=outd2);
+    DFF(in=outd2, out=fout2, out=out[2]);
+
+    // bit 3
+    Nand(a=loadnot, b=fout3, out=outf3);
+    Nand(a=load, b=in[3], out=outs3);
+    Nand(a=outf3, b=outs3, out=outd3);
+    DFF(in=outd3, out=fout3, out=out[3]);
+
+    // bit 4
+    Nand(a=loadnot, b=fout4, out=outf4);
+    Nand(a=load, b=in[4], out=outs4);
+    Nand(a=outf4, b=outs4, out=outd4);
+    DFF(in=outd4, out=fout4, out=out[4]);
+
+    // bit 5
+    Nand(a=loadnot, b=fout5, out=outf5);
+    Nand(a=load, b=in[5], out=outs5);
+    Nand(a=outf5, b=outs5, out=outd5);
+    DFF(in=outd5, out=fout5, out=out[5]);
+
+    // bit 6
+    Nand(a=loadnot, b=fout6, out=outf6);
+    Nand(a=load, b=in[6], out=outs6);
+    Nand(a=outf6, b=outs6, out=outd6);
+    DFF(in=outd6, out=fout6, out=out[6]);
+
+    // bit 7
+    Nand(a=loadnot, b=fout7, out=outf7);
+    Nand(a=load, b=in[7], out=outs7);
+    Nand(a=outf7, b=outs7, out=outd7);
+    DFF(in=outd7, out=fout7, out=out[7]);
+
+    // bit 8
+    Nand(a=loadnot, b=fout8, out=outf8);
+    Nand(a=load, b=in[8], out=outs8);
+    Nand(a=outf8, b=outs8, out=outd8);
+    DFF(in=outd8, out=fout8, out=out[8]);
+
+    // bit 9
+    Nand(a=loadnot, b=fout9, out=outf9);
+    Nand(a=load, b=in[9], out=outs9);
+    Nand(a=outf9, b=outs9, out=outd9);
+    DFF(in=outd9, out=fout9, out=out[9]);
+
+    // bit 10
+    Nand(a=loadnot, b=fout10, out=outf10);
+    Nand(a=load, b=in[10], out=outs10);
+    Nand(a=outf10, b=outs10, out=outd10);
+    DFF(in=outd10, out=fout10, out=out[10]);
+
+    // bit 11
+    Nand(a=loadnot, b=fout11, out=outf11);
+    Nand(a=load, b=in[11], out=outs11);
+    Nand(a=outf11, b=outs11, out=outd11);
+    DFF(in=outd11, out=fout11, out=out[11]);
+
+    // bit 12
+    Nand(a=loadnot, b=fout12, out=outf12);
+    Nand(a=load, b=in[12], out=outs12);
+    Nand(a=outf12, b=outs12, out=outd12);
+    DFF(in=outd12, out=fout12, out=out[12]);
+
+    // bit 13
+    Nand(a=loadnot, b=fout13, out=outf13);
+    Nand(a=load, b=in[13], out=outs13);
+    Nand(a=outf13, b=outs13, out=outd13);
+    DFF(in=outd13, out=fout13, out=out[13]);
+
+    // bit 14
+    Nand(a=loadnot, b=fout14, out=outf14);
+    Nand(a=load, b=in[14], out=outs14);
+    Nand(a=outf14, b=outs14, out=outd14);
+    DFF(in=outd14, out=fout14, out=out[14]);
+
+    // bit 15
+    Nand(a=loadnot, b=fout15, out=outf15);
+    Nand(a=load, b=in[15], out=outs15);
+    Nand(a=outf15, b=outs15, out=outd15);
+    DFF(in=outd15, out=fout15, out=out[15]);
+}

@@ -1,0 +1,12 @@
+CHIP Bit {
+    IN in, load;
+    OUT out;
+
+    PARTS:
+    Nand(a=load , b=load , out=loadnot );
+    Nand(a=loadnot,b=fout, out=outf);
+    Nand(a=load, b=in, out=outs);
+    Nand(a=outf,b=outs,out=outd);
+    DFF(in=outd,out=fout,out=out);
+
+}
