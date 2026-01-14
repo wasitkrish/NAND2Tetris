@@ -1,8 +1,25 @@
-# 💻 NAND2Tetris – Elements of Computing
+<!-- Banner Header -->
+<p align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f172a,100:1e293b&height=220&section=header&text=NAND2Tetris%20–%20Elements%20of%20Computing&fontSize=36&fontColor=ffffff&animation=fadeIn" />
+</p>
+
+<p align="center">
+  <img src="https://img.shields.io/badge/License-MIT-green.svg?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Course-NAND2Tetris-blue.svg?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Language-HDL-orange.svg?style=for-the-badge" />
+</p>
+
+<p align="center">
+  <b>Building a computer from logic gates to a functioning CPU</b>
+</p>
+
+---
+
+## 💻 NAND2Tetris – Elements of Computing
 
 This repository contains my project work for the **NAND2Tetris: Elements of Computing Systems** course, completed as part of the **Elements of Computing** curriculum in my B.Tech program.
 
-NAND2Tetris is a bottom-up exploration of computer systems — building an entire computer **from logic gates to a working CPU**, purely from first principles. This repository documents my implementations across multiple stages of that journey.
+NAND2Tetris is a bottom-up exploration of computer systems — constructing an entire computer **from NAND gates to a working CPU**, purely from first principles. This repository documents my implementations across multiple stages of that journey.
 
 🚀 **Completed Projects:** 1, 2, 3, and 5 from the official NAND2Tetris project sequence.
 
@@ -10,16 +27,16 @@ NAND2Tetris is a bottom-up exploration of computer systems — building an entir
 
 ## 📌 Completed Projects
 
-🔹 **Project 1 – Logic Gates**  
+**Project 1 – Logic Gates**  
 Implementation of fundamental and composite logic gates using only NAND gates in HDL.
 
-🔹 **Project 2 – Arithmetic Logic**  
+**Project 2 – Arithmetic Logic**  
 Construction of arithmetic circuits including adders and the Arithmetic Logic Unit (ALU).
 
-🔹 **Project 3 – Sequential Logic**  
+**Project 3 – Sequential Logic**  
 Design of flip-flops, registers, and RAM modules.
 
-🔹 **Project 5 – Computer Architecture**  
+**Project 5 – Computer Architecture**  
 Complete implementation of the Hack CPU and memory system.
 
 Each project folder contains HDL source files and official test scripts for verification using NAND2Tetris simulators.
@@ -28,10 +45,11 @@ Each project folder contains HDL source files and official test scripts for veri
 
 ## 📂 Repository Structure
 
-/project1 → Logic gate implementations  
-/project2 → Arithmetic circuits and ALU  
-/project3 → Sequential circuits and memory  
-/project5 → Hack CPU and memory architecture  
+/project1 → Logic gate implementations
+/project2 → Arithmetic circuits and ALU
+/project3 → Sequential circuits and memory
+/project5 → Hack CPU and memory architecture
+
 
 ---
 
@@ -49,8 +67,8 @@ https://nand2tetris.github.io/web-ide
 
 ## 🌐 Official Course Resources
 
-📘 Course Website: https://www.nand2tetris.org  
-📄 Project Instructions: https://www.nand2tetris.org/course  
+Course Website: https://www.nand2tetris.org  
+Project Instructions: https://www.nand2tetris.org/course  
 
 ---
 
@@ -72,7 +90,7 @@ The emphasis is on **learning by building**, not theory alone.
 ## 🧠 Key Concepts Covered
 
 - Hardware Description Language (HDL)  
-- Digital logic & gate-level design  
+- Digital logic and gate-level design  
 - Arithmetic and sequential circuits  
 - Memory organization  
 - CPU architecture (Hack Computer)
@@ -94,3 +112,10 @@ This project is licensed under the **MIT License**.
 
 Copyright (c) 2026  
 **Krish Singh**
+
+---
+
+<p align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:1e293b,100:0f172a&height=120&section=footer"/>
+</p>
+
