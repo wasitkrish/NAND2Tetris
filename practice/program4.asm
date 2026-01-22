@@ -1,0 +1,10 @@
+@3
+D=A
+D=D+A
+D=D+A
+D=D+A
+@0
+M=D
+(END)
+@END
+0;JMP
